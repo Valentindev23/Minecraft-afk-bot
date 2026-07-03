@@ -4,15 +4,15 @@ const { pathfinder, Movements, goals } = require('mineflayer-pathfinder');
 // Configuration - Edit these values for your server
 const config = {
   server: {
-    host: 'localhost', // Change to your server IP
-    port: 25565,
-    version: '1.20.4' // Change to your server version
+    host: 'Survie-qkb0.aternos.me', // Change to your server IP
+    port: 29067,
+    version: '26.2' // Change to your server version
   },
   bot: {
-    username: 'AFKBot', // Change to your desired bot name
+    username: 'Ozzy', // Change to your desired bot name
     auth: 'offline', // 'offline', 'microsoft', or 'mojang'
     password: '', // Minecraft account password (if using premium auth)
-    authmePassword: 'change_this_password' // AuthMe password for /register and /login
+    authmePassword: 'changethispassword' // AuthMe password for /register and /login
   },
   serverCommands: {
     enabled: true,
@@ -40,12 +40,12 @@ const config = {
       interval: 30000 // 30 seconds
     },
     chatMessages: {
-      enabled: false,
+      enabled: true,
       interval: 300000, // 5 minutes
       messages: [
-        'Still here!',
-        'AFK farming...',
-        'Bot is active'
+        'yo!',
+        'Moi bot non...',
+        'je suis toujour la'
       ]
     },
     chatLog: {
